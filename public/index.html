@@ -1,0 +1,114 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>Document</title>
+</head>
+<body class="body">
+  <fieldset>
+    <legend><a target="_blank" class="type" href="https://refactoring.guru/ru/design-patterns/creational-patterns">Порождающие</a>
+      - паттерны, которые помогают управлять процессом создания обьектов.
+    </legend>
+    <ol>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/factory-method">Factory method</a> - определяет общий интерфейс для создания объектов в суперклассе, позволяя подклассам изменять
+        тип создаваемых объектов.
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/abstract-factory">Abstract method</a> - позволяет создавать семейства связанных объектов, не привязываясь к конкретным классам
+        создаваемых объектов.
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/builder">Builder</a> - позволяет создавать объекты пошагово.</li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/singleton">Singleton</a> - в приложении может быть только один инстанс класса с глобальной точкой доступа.</li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/prototype">Prototype</a> (Clone) - позволяет копировать объекты, не вдаваясь в подробности их реализации.</li>
+    </ol>
+  </fieldset>
+  <fieldset>
+    <legend><a target="_blank" class="type" href="https://refactoring.guru/ru/design-patterns/structural-patterns">Структурные</a>
+      - паттерны отвечают за построение удобных в поддержке иерархий классов.
+    </legend>
+    <ol>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/adapter">Adapter</a> - позволяет объектам с несовместимыми интерфейсами работать вместе..</li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/bridge">Bridge</a> - разделяет один или несколько классов на две отдельные иерархии — абстракцию и реализацию, позволяя
+        изменять их независимо друг от друга. Абстракиция - обвёртка, которая не выполняет работу, а делегирует одному из
+        обьектов реаолизации
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/decorator">Decorator</a> - добавляет новое поведение или функционал для обьектов. Декоратор - обычные функции, которые
+        принимают инстанс даного класса, модифицирую и возвращя его обратно
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/composite">Composite</a> (компоновщик) - позволяет сгруппировать множество объектов в древовидную структуру, а затем работать с
+        ней так, как будто это единичный объект.
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/facade">Facade</a> - служит для создания более простого интерфейса для взаимодействия с более сложной подсистемой.(jquery,
+        видео конвертация)
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/flyweight">Flyweight</a> (легковес, приспособленец, кэш) - служит для еффективной передачи данных с различными типами обьектов.
+        (загрузка изображений) Браузер использует flyweight паттерн для того, чтобы избежать повторной загрузки тех
+        елементов, которые были загружены. Кеширование, сохранение памяти.
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/proxy">Proxy</a> (заместитель) - это структурный паттерн проектирования, который позволяет подставлять вместо реальных
+        объектов специальные объекты-заменители. Эти объекты перехватывают вызовы к оригинальному объекту, позволяя
+        сделать что-то до или после передачи вызова оригиналу.
+      </li>
+    </ol>
+  </fieldset>
+  <fieldset>
+    <legend><a target="_blank" class="type" href="https://refactoring.guru/ru/design-patterns/behavioral-patterns">Поведенческие</a>
+      - позволяют улучшить коммуникацию между обьектами разного типа.
+    </legend>
+    <ol>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/chain-of-responsibility">Chain of responsibility</a> (цепочка обязанностей) - позволяет последовательно у одного и того же обьекта вызывать
+        набор операция и последовательно их модифицировать(jquery)
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/command">Command</a> - позволяет создавать абстрактную оболочку над функционалом, который позволяет управлять но через другой
+        обьекти тем самым записывая определённые состояния которые были выполнены.
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/iterator">Iterator</a> - создаём обьект, у которого мы сможем последовательно получать доступ к определённой информации</li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/mediator">Mediator</a> (посредник) - позволяет уменьшить связанность множества классов между собой, благодаря перемещению этих
+        связей в один класс-посредник. Позволяет взаемодействовать группе обьектов через друг друга.
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/memento">Memento</a> (снимок) — позволяет сохранять и восстанавливать прошлые состояния объектов, не раскрывая подробностей
+        их реализации.
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/observer">Observer</a> (publisher subscriber, dispatcher, listener) - формирует зависимости один к многим. Есть один обьект у
+        которого можем затрегирить вызов изменений. Другие обьекты которые подписанына ети изменения, они получают эти
+        обновлению и делают какойто функционал. (RxJs, Angular)
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/state">State</a> - создание классов которые будут являтся елементами стейта и мы можем делегировать изменения состояния
+        этих классов на общий класс
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/strategy">Strategy</a> - позволяет создавать оболочку для различных интерфейсов для того чтоб мы могли использовать разные
+        интерфейсы и алгоритмы в конкретной задаче. Наследование обьектов в неизменяемом порядке
+      </li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/template-method">Template</a> - определяет скелет будующего алгоритма, делегирует создание функционала в дочерние классы</li>
+      <li><a target="_blank" href="https://refactoring.guru/ru/design-patterns/visitor">Посетитель</a> - позволяет добавлять в программу новые операции, не изменяя классы объектов, над которыми эти
+        операции могут выполняться.
+      </li>
+    </ol>
+  </fieldset>
+</body>
+<style>
+  .body{
+    background-color: #2B2B2B;
+    color: white;
+    font-size: 20px;
+    font-family: Calibri,serif;
+  }
+  legend a{
+    color: lawngreen;
+    text-decoration: none;
+  }
+  fieldset{
+    margin-bottom: 15px;
+  }
+  ol{
+    margin-top: 0;
+  }
+  li a{
+    color: cornflowerblue;
+    text-decoration: none;
+  }
+</style>
+
+</html>
